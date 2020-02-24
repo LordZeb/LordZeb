@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-24T16:56:57.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="t88wf6bnwWzwNWNrZ6nU" version="12.7.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-24T17:02:15.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="gUnglTzRcEG-9ARKGWLO" version="12.7.4" type="github">
   <diagram id="QIZCpRospZ7RfqJBEZPr" name="Page-1">
     <mxGraphModel dx="1718" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -114,6 +114,9 @@
         <mxCell id="qsYvxT9El_Sg50nUsWc1-52" value="Read Calculated daily Calorie Reqirement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="105.16" y="1150" width="162.19" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="73N0TD0CeSRKF_j4tX6i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qsYvxT9El_Sg50nUsWc1-56" target="73N0TD0CeSRKF_j4tX6i-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qsYvxT9El_Sg50nUsWc1-56" value="Read Predictive weight Chart" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1145" width="85" height="70" as="geometry" />
         </mxCell>
@@ -129,17 +132,30 @@
         <mxCell id="qsYvxT9El_Sg50nUsWc1-75" value="Meals can be Changed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="105.16" y="1380" width="184.84" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="73N0TD0CeSRKF_j4tX6i-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="73N0TD0CeSRKF_j4tX6i-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="73N0TD0CeSRKF_j4tX6i-2" value="&lt;span style=&quot;color: rgb(34 , 34 , 34) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left ; white-space: normal ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;BMR &lt;/b&gt;= 10 * weight (kg) + 6.25 * height (cm) – 5 * age (y) + s (kcal / day) , where s is +5 for males and -161 for females.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1470" y="240" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="73N0TD0CeSRKF_j4tX6i-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="73N0TD0CeSRKF_j4tX6i-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1722" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="73N0TD0CeSRKF_j4tX6i-3" value="Total daily estimated Expenditure = BMR + Daily Estimated expenditure(calories)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1482" y="590" width="480" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="73N0TD0CeSRKF_j4tX6i-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="73N0TD0CeSRKF_j4tX6i-8" target="73N0TD0CeSRKF_j4tX6i-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="73N0TD0CeSRKF_j4tX6i-8" value="Daily Calorific Requirement = TDEE -/+ caloric requirement" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1500" y="875" width="510" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="73N0TD0CeSRKF_j4tX6i-11" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1240" width="510" height="90" as="geometry" />
+        <mxCell id="73N0TD0CeSRKF_j4tX6i-11" value="Surplus or Decrease in daily calorie consumption perday will result in increase or decrease in body weight in a week equal to the amount of calories per day in grams.&lt;br&gt;for eg. surplus or decrease&amp;nbsp; of 200 calories per day will result to 200g of increase or decrease of body weight per week." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1135" width="510" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
